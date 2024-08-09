@@ -1819,6 +1819,11 @@ module.exports = [
   },
   {
     permanent: true,
+    source: '/docs/guides/auth/migrations/auth0',
+    destination: '/docs/guides/resources/migrating-to-supabase/auth0',
+  },
+  {
+    permanent: true,
     source: '/docs/guides/migrations/firestore-data',
     destination: '/docs/guides/resources/migrating-to-supabase/firestore-data',
   },
@@ -2420,18 +2425,8 @@ module.exports = [
   },
   {
     permanent: false,
-    source: '/launch-week',
-    destination: '/ga-week',
-  },
-  {
-    permanent: false,
     source: '/special-announcement',
     destination: '/ga-week',
-  },
-  {
-    permanent: false,
-    source: '/launch-week/tickets/:path*',
-    destination: '/ga-week/tickets/:path*',
   },
   {
     permanent: false,
